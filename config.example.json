@@ -1,0 +1,15 @@
+{
+  "discord": "your discord bot token",
+  "hackmud": "your hackmud chat api pass / token",
+
+  "channels": {
+    "0000": "discord channel id for 0000",
+    "7001": "discord channel id for 7001"
+  },
+
+  "otherChannel": "discord channel id for other channels not in the other values",
+
+  "hackmudUser": "hackmud user to send from",
+  "bridgeTitle": "title to put before bridge, with a new line appended after",
+  "bridgeTimestamp": "timestamp to show with discord / 'fake' message"
+}
