@@ -52,7 +52,7 @@ client.on('ready', () => {
       console.log("To: " + message.to_user);
 
       var msg = message.msg;
-      msg = msg.replace(colorMapRegex, (_, a, b, c) => b);
+      msg = msg.replace(colorMapRegex, (_, a, b, c) => b).replace('``', '\\`');
 
       msg = message.channel ? `\`\`\`${getTimestamp()} ${message.channel} ${message.from_user} :::${msg}:::\`\`\`` : `\`\`\`${getTimestamp()} TELL ${message.from_user} :::${msg}:::\`\`\``;
 
