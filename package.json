@@ -6,7 +6,7 @@
   "author": "Duck Industries",
   "license": "MIT",
   "dependencies": {
-    "@skiilaa/hackmud-chat-api": "^1.0.0",
+    "@skiilaa/hackmud-chat-api": "^1.0.1",
     "deasync": "^0.1.16",
     "discord.js": "github:discordjs/discord.js#master"
   }
